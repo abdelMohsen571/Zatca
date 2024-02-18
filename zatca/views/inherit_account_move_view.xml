@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id='inherit_account_move_form' model="ir.ui.view"><!--id any name-->
+        <field name="name">inherit.account.move</field> <!-- name= inherit.(model name)-->
+        <field name="model">account.move</field> <!-- model= modle name you inherited-->
+        <field name='inherit_id' ref='account.view_move_form'/><!-- inherit_id  ref= external id -->
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='delivery_date']" position='after'>
+                    <field name="new_name"/>
+<!--                     <button name="assign_name" string="Accept" type="object" class="btn-primary"-->
+<!--                        icon="fa-check" />-->
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
+
