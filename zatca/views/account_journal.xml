@@ -6,10 +6,12 @@
         <field name='inherit_id' ref='account.view_account_journal_form'/><!-- inherit_id  ref= external id -->
         <field name="arch" type="xml">
             <xpath expr="//notebook" position='inside'>
-                <page name="new_page" string="New Page">
+                <page name="new_page" string="New Page" invisible="country_code != 'SA'">
                     <group>
-                        <group string="Control-Access" >
-                            <field name="ref"/>
+                        <group string="Control-Access">
+                            <field name="store_id"/>
+                            <field name="store_code"/>
+                            <field name="store_name"/>
                         </group>
 
                     </group>

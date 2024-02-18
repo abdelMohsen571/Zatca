@@ -24,7 +24,8 @@ Long description of module's purpose
     'data': [
         'security/ir.model.access.csv',
         'views/account_journal.xml',
-        'views/inherit_account_move_view.xml'
+        'views/inherit_account_move_view.xml',
+        'views/data.xml',
     ],
 
 }

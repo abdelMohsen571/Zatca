@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="four_season_event_riyadh" model="account.journal">
+            <field name="name">Four Season Event Riyadh</field>
+            <field name="code">FSER</field>
+            <field name="type">sale</field>
+            <field name="store_id">216</field>
+            <field name="store_code">S0116EX</field>
+            <field name="store_name">Four Season Event Riyadh</field>
+        </record>
+        <record id="hayat_mall" model="account.journal">
+            <field name="name">HAYAT MALL</field>
+            <field name="code">HM</field>
+            <field name="type">sale</field>
+            <field name="store_id">110</field>
+            <field name="store_code">S21</field>
+            <field name="store_name">HAYAT MALL</field>
+        </record>
+
+        <record id="nakheel_dammam" model="account.journal">
+            <field name="name">NAKHEEL DAMMAM</field>
+            <field name="code">ND</field>
+            <field name="type">sale</field>
+            <field name="store_id">190</field>
+            <field name="store_code">S061601</field>
+            <field name="store_name">NAKHEEL DAMMAM</field>
+        </record>
+
+        <record id="choice_nakheel_mall_riydh" model="account.journal">
+            <field name="name">NAKHEEL MALL RIYADH</field>
+            <field name="code">NDR</field>
+            <field name="type">sale</field>
+            <field name="store_id">99</field>
+            <field name="store_code">S011601</field>
+            <field name="store_name">NAKHEEL MALL RIYADH</field>
+        </record>
+
+        <record id="nakheel_panorama_riydh" model="account.journal">
+            <field name="name">PANORAMA MALL RIYADH</field>
+            <field name="code">PMR</field>
+            <field name="type">sale</field>
+            <field name="store_id">186</field>
+            <field name="store_code">S011604</field>
+            <field name="store_name">PANORAMA MALL RIYADH</field>
+        </record>
+
+        <record id="riydh_park_mall" model="account.journal">
+            <field name="name"> RIYADH PARK MALL</field>
+            <field name="code">RPM</field>
+            <field name="type">sale</field>
+            <field name="store_id">106</field>
+            <field name="store_code">S011602</field>
+            <field name="store_name">RIYADH PARK MALL</field>
+        </record>
+
+
+        <record id="tahita_jeddah" model="account.journal">
+            <field name="code">CTG</field>
+            <field name="type">sale</field>
+            <field name="store_id">107</field>
+            <field name="store_code">S42</field>
+            <field name="name">CHOICE TAHLIA JEDDAH</field>
+            <field name="store_name">CHOICE TAHLIA JEDDAH</field>
+        </record>
+
+
+        <record id="view_mall_riyadh" model="account.journal">
+            <field name="code">VMR</field>
+            <field name="type">sale</field>
+            <field name="store_id">165</field>
+            <field name="store_code">S011603</field>
+            <field name="name">VIEW MALL RIYADH</field>
+            <field name="store_name">VIEW MALL RIYADH</field>
+        </record>
+
+
+        <record id="riva_al_salaam_jeddah" model="account.journal">
+            <field name="code">RASJ</field>
+            <field name="type">sale</field>
+            <field name="store_id">116</field>
+            <field name="store_code">S33</field>
+            <field name="name">RIVA AL SALAAM JEDDAH</field>
+            <field name="store_name">RIVA AL SALAAM JEDDAH</field>
+        </record>
+
+
+        <record id="rive_e_commerce_ksa" model="account.journal">
+            <field name="code">RECKA</field>
+            <field name="type">sale</field>
+            <field name="store_id">174</field>
+            <field name="store_code">RECKSA</field>
+            <field name="name">RIVA E-COMMERCE KSA</field>
+            <field name="store_name">RIVA E-COMMERCE KSA</field>
+        </record>
+
+        <record id="riva_four_season_event_riyadh" model="account.journal">
+            <field name="code">RFSER</field>
+            <field name="type">sale</field>
+            <field name="store_id">215</field>
+            <field name="store_code">KEX</field>
+            <field name="name">RIVA Four Season Event Riyadh</field>
+            <field name="store_name">RIVA Four Season Event Riyadh</field>
+        </record>
+
+        <record id="riva_hamra_mall" model="account.journal">
+            <field name="code">RHM</field>
+            <field name="type">sale</field>
+            <field name="store_id">114</field>
+            <field name="store_code">S04</field>
+            <field name="name">RIVA HAMRA MALL</field>
+            <field name="store_name">RIVA HAMRA MALL</field>
+        </record>
+
+        <record id="riva_hayat_mall_riyadh" model="account.journal">
+            <field name="code">RHMAR</field>
+            <field name="type">sale</field>
+            <field name="store_id">200</field>
+            <field name="store_code">S011006</field>
+            <field name="name">RIVA HAYAT MALL RIYADH</field>
+            <field name="store_name">RIVA HAYAT MALL RIYADH</field>
+        </record>
+
+
+        <record id="riva_jeddah_tahlta" model="account.journal">
+            <field name="code">RJT</field>
+            <field name="type">sale</field>
+            <field name="store_id">109</field>
+            <field name="store_code">S31</field>
+            <field name="name">RIVA JEDDAH TAHLIA</field>
+            <field name="store_name">RIVA JEDDAH TAHLIA</field>
+        </record>
+
+
+        <record id="riva_jurry_mall" model="account.journal">
+            <field name="code">RJM</field>
+            <field name="type">sale</field>
+            <field name="store_id">117</field>
+            <field name="store_code">S91</field>
+            <field name="name">RIVA JURRY MALL</field>
+            <field name="store_name">RIVA JURRY MALL</field>
+        </record>
+
+
+        <record id="riva_nakheel_riyadh" model="account.journal">
+            <field name="code">RNR</field>
+            <field name="type">sale</field>
+            <field name="store_id">169</field>
+            <field name="store_code">S011005</field>
+            <field name="name">RIVA NAKHEEL MALL RIYADH</field>
+            <field name="store_name">RIVA NAKHEEL MALL RIYADH</field>
+        </record>
+
+        <record id="riva_riyadh_gallery" model="account.journal">
+            <field name="code">RRG</field>
+            <field name="type">sale</field>
+            <field name="store_id">139</field>
+            <field name="store_code">S011003</field>
+            <field name="name">RIVA RIYADH GALLERY</field>
+            <field name="store_name">RIVA RIYADH GALLERY</field>
+        </record>
+
+        <record id="riva_riyadh_park_mall" model="account.journal">
+            <field name="code">RRPM</field>
+            <field name="type">sale</field>
+            <field name="store_id">118</field>
+            <field name="store_code">S011001</field>
+            <field name="name">RIVA RIYADH PARK MALL</field>
+            <field name="store_name">RIVA RIYADH PARK MALL</field>
+        </record>
+
+        <record id="riva_the_village_jeddah" model="account.journal">
+            <field name="code">RTVJ</field>
+            <field name="type">sale</field>
+            <field name="store_id">202</field>
+            <field name="store_code">S021002</field>
+            <field name="name">RIVA THE VILLAGE JEDDAH</field>
+            <field name="store_name">RIVA THE VILLAGE JEDDAH</field>
+        </record>
+
+        <record id="riva_view_mall_riyadh" model="account.journal">
+            <field name="code">RVMR</field>
+            <field name="type">sale</field>
+            <field name="store_id">168</field>
+            <field name="store_code">S011004</field>
+            <field name="name">RIVA VIEW MALL RIYADH</field>
+            <field name="store_name">RIVA VIEW MALL RIYADH</field>
+        </record>
+
+    </data>
+</odoo>
+

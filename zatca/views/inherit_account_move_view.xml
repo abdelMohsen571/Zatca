@@ -6,7 +6,7 @@
         <field name='inherit_id' ref='account.view_move_form'/><!-- inherit_id  ref= external id -->
         <field name="arch" type="xml">
             <xpath expr="//field[@name='delivery_date']" position='after'>
-                    <field name="new_name"/>
+<!--                    <field name="new_name"/>-->
 <!--                     <button name="assign_name" string="Accept" type="object" class="btn-primary"-->
 <!--                        icon="fa-check" />-->
             </xpath>
